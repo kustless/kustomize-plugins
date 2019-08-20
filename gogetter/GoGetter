@@ -6,7 +6,7 @@
 #
 # Reads a file like this
 #
-#  apiVersion: yuju.nz/v1
+#  apiVersion: kustless.github.io/v0
 #  kind: GoGetter
 #  metadata:
 #    name: dummy
@@ -16,7 +16,7 @@
 # download kustomize deck and build it to to stdout
 #
 # Example execution:
-# ./plugin/yuju.nz/v1/gogetter/GoGetter goGetterConfig.yaml
+# ./plugin/kustless.github.io/v0/gogetter/GoGetter goGetterConfig.yaml
 
 set -e
 

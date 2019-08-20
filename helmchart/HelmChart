@@ -6,7 +6,7 @@
 #
 # Reads a file like this
 #
-#  apiVersion: yuju.nz/v1
+#  apiVersion: kustless.github.io/v0
 #  kind: HelmChart
 #  metadata:
 #    name: dummy
@@ -23,7 +23,7 @@
 # chartDir default: $TMP_DIR/charts
 #
 # Example execution:
-# ./plugin/someteam.example.com/v1/ChartInflator configFile.yaml
+# ./plugin/kustless.github.io/v0/HelmChart generators.yaml
 
 # TODO: allow specification of a specific chart VERSION
 # so this test doesn't break every time minecraft is upgraded :P
